@@ -13,9 +13,6 @@ header{
     height: 90px;
 }
 
-nav{
-    height: 100%;
-}
 
 .liContainer{
     display: inline-flex;
@@ -48,7 +45,7 @@ h1{
     font-size: 60px;
     text-align: left;
     margin-left: 85px;
-    margin-top: 20px;
+    margin-top: 60px;
 }
 
 h2{
@@ -179,9 +176,8 @@ footer ul li{
 
 .pContainer2{
     width: 400px;
-    font-size: 2rem;
     position: relative;
-    left: 70%;
+    left: 60%;
 }
 
 h4{
@@ -204,3 +200,4 @@ h4{
     margin-left: 45%;
     margin-top: 5%;
 }
+
