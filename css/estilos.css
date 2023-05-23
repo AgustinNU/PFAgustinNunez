@@ -18,7 +18,6 @@ header{
     display: inline-flex;
     width: 100%;
     justify-content: space-around;
-    align-items: center;
     height: 100%;
 }
 
@@ -199,5 +198,25 @@ h4{
     font-size: 28px;
     margin-left: 45%;
     margin-top: 5%;
+}
+
+/*MOBILE */
+@media screen and (max-width:320px; ) {
+    
+
+}
+/*MOBILE ACOSTADO */
+@media screen and (max-width 480px; ) {
+
+}
+
+/*TABLET */
+@media screen and (max-width 768px; ) {
+
+}
+
+/*TABLET ACOSTADA */
+@media screen and (max-width 1024px; ) {
+
 }
 
