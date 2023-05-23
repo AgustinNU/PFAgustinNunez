@@ -200,23 +200,27 @@ h4{
     margin-top: 5%;
 }
 
-/*MOBILE */
-@media screen and (max-width:320px; ) {
-    
-
+.comprar a:hover{
+    background-color: lightskyblue;
+    border-color: black;
+    color: black;
 }
-/*MOBILE ACOSTADO */
-@media screen and (max-width 480px; ) {
+
+.sectionCards{
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+}
+
+/*MOBILE */
+@media (max-width:320px ) {
+    .sectionCards{
+        display: block;
+    }
 
 }
 
 /*TABLET */
-@media screen and (max-width 768px; ) {
+@media screen and (max-width:768px ) {
 
 }
 
-/*TABLET ACOSTADA */
-@media screen and (max-width 1024px; ) {
-
-}
 
