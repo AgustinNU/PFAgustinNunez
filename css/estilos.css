@@ -257,11 +257,6 @@ h4{
 
 
 /*MOBILE */
-@media (max-width:320px ) {
-    .sectionCards{
-        display: block;
-    }
-
 @media screen and (max-width:450px ) {
     body{
         background-image: url(https://us.123rf.com/450wm/leonardo116/leonardo1161709/leonardo116170900126/86910223-tablero-de-ajedrez-gris-blanco-ilustraci%C3%B3n.jpg);
@@ -285,8 +280,6 @@ h4{
 }
 
 /*TABLET */
-@media screen and (max-width:768px ) {
-
 @media screen and (min-width:451px ) and (max-width: 1023px) {
     .piePagina .grupo1{
         width: 50%;
