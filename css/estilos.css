@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url(https://static.vecteezy.com/system/resources/previews/004/342/574/original/light-wood-background-texture-of-light-brown-wooden-planks-free-vector.jpg);
+    background-image: url(https://img.freepik.com/foto-gratis/piedra-textura-fondo_632498-719.jpg);
     background-size: 100%;
 }
 header{
@@ -54,6 +54,9 @@ h2{
 }
 
 .sectionCards{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     margin-top: 40px;
     padding-left: 5%;
     padding-right: 5%;
@@ -152,9 +155,16 @@ h2{
 }
 
 .pContainer2{
-    width: 400px;
     position: relative;
-    left: 60%;
+    justify-content: space-around;
+    width: 400px;
+    left: 38%;
+    margin-top: 15px;
+}
+
+form fieldset div legend{
+    text-align: center;
+    margin-top: 15px;
 }
 
 h4{
@@ -164,9 +174,20 @@ h4{
 }
 
 .pContainer3{
-    width: 400px;
-    font-size: 1rem;
+    display: grid;
+    gap: 1.75rem;
+    grid-template-columns: repeat(auto-fill, minmax(320px , 1fr));
+    margin-left: 38%;
+}
+
+.sectionCardsConfirmar{
     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 35%;
 }
 
 .buttonConfirmarCompra{
@@ -241,10 +262,6 @@ h4{
 
 /*TABLET */
 @media screen and (min-width:451px ) and (max-width: 1023px) {
-    body{
-        background-image: url(https://img.freepik.com/foto-gratis/piedra-textura-fondo_632498-719.jpg);
-        background-size: 100%;
-    }
     .piePagina .grupo1{
         width: 50%;
         grid-template-columns: repeat(1, 1fr);
