@@ -100,7 +100,6 @@ h2{
 .subscripcion{
     display: flex;
     flex-direction: column;
-
     justify-content: space-evenly;
     margin-top: 75px;
     background-color: orangered;
@@ -133,28 +132,10 @@ h2{
     margin: 10px;
 }
 
-footer{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 5px;
-    background-color: rgb(190, 186, 186);
-    height: 100%;
-    
-}
-footer p{
-    color: black;
-}
 .logoContacto{
-    height: 40%;
-    width: 40%;
-}
-.redesSocialesContainer{
-    display: flex;
-    margin-top: 70px;
-}
-footer ul li{
-    list-style: none;
+    height: 10%;
+    width: 10%;
+    margin-left: 10%;
 }
 
 
@@ -197,11 +178,64 @@ h4{
     margin-top: 5%;
 }
 
+
+.piePagina{
+    width: 100%;
+    background-color: rgb(190, 186, 186);
+}
+
+.piePagina .grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.piePagina .grupo1 .box figure{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.piePagina .grupo1 .box figure img{
+    width: 125px;
+    height: 125px;
+}
+
+.piePagina .grupo1 .redSocial a{
+    padding: 5px;
+}
+
+.piePagina .grupo2{
+    padding: 15px 10px;
+    text-align: center;
+}
+
+.piePagina .grupo2 small{
+    font-size: 15px;
+}
+
+
 /*MOBILE */
 @media screen and (max-width:450px ) {
     body{
         background-image: url(https://us.123rf.com/450wm/leonardo116/leonardo1161709/leonardo116170900126/86910223-tablero-de-ajedrez-gris-blanco-ilustraci%C3%B3n.jpg);
         background-size: 100%;
+    }
+    .piePagina .grupo1{
+        width: 30%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+    .logoContacto{
+        width: 30px;
+        height: 30px;
     }
 }
 
@@ -210,6 +244,16 @@ h4{
     body{
         background-image: url(https://img.freepik.com/foto-gratis/piedra-textura-fondo_632498-719.jpg);
         background-size: 100%;
+    }
+    .piePagina .grupo1{
+        width: 50%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+    .logoContacto{
+        width: 30px;
+        height: 30px;
     }
 }
 
