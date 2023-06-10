@@ -289,6 +289,9 @@ h2{
     transform: scale(1.2);
 }
 
+.buttonSubscripcion:hover{
+    transform: scale(1.2);
+}
 
 /*MOBILE */
 @media screen and (max-width:450px ) {
