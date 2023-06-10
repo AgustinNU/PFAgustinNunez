@@ -252,18 +252,6 @@ h4{
 
 h1{
     animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-    animation: text-shadow-pop-tl 0.6s both;
-}
-
-@keyframes text-shadow-pop-tl {
-    0% {
-        text-shadow: 0 0 #20da4e, 0 0 #20da4e, 0 0 #20da4e, 0 0 #20da4e, 0 0 #20da4e, 0 0 #20da4e, 0 0 #20da4e, 0 0 #20da4e;
-        transform: translateX(0) translateY(0);
-    }
-    100% {
-        text-shadow: -1px -1px #20da4e, -2px -2px #20da4e, -3px -3px #20da4e, -4px -4px #20da4e, -5px -5px #20da4e, -6px -6px #20da4e, -7px -7px #20da4e, -8px -8px #20da4e;
-        transform: translateX(8px) translateY(8px);
-    }
 }
 
 @keyframes tracking-in-expand {
