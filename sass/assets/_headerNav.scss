@@ -1,0 +1,31 @@
+header{
+    position: sticky;top: 0;
+    background-color: rgba(22, 21, 21, 0.877);
+    height: 90px;
+    z-index: 4;
+}
+
+.liContainer{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.liContainer li{
+    list-style: none;
+}
+
+.liContainer li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.logoContainer{
+    height: 105px;
+    width: 105px;
+}
+.logo {
+    width: 100%;
+    height: 100%;
+}

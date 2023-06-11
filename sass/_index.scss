@@ -1,0 +1,22 @@
+h1{
+    font-size: 60px;
+    text-align: left;
+    margin-left: 85px;
+    margin-top: 60px;
+}
+
+h2{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.sectionCards{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+}
