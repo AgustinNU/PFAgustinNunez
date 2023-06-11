@@ -8,3 +8,40 @@ body{
     background-image: url(https://img.freepik.com/foto-gratis/piedra-textura-fondo_632498-719.jpg);
     background-size: 100%;
 }
+
+/*Animaciones*/
+
+h1{
+    animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@keyframes tracking-in-expand {
+    0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+    40% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+h2{
+    animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@keyframes tracking-in-contract {
+    0% {
+        letter-spacing: 1em;
+        opacity: 0;
+    }
+    40% {
+        opacity: 0.6;
+    }
+    100% {
+        letter-spacing: normal;
+        opacity: 1;
+    }
+}

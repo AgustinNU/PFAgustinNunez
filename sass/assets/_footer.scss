@@ -1,3 +1,23 @@
+.logoWp{
+    height: 150%;
+    width: 150%;
+}
+
+.sticky{
+    position: sticky;
+    height: 50px;
+    width: 50px;
+    left: 90%;
+    bottom: 0%;
+    margin: 10px;
+}
+
+.logoContacto{
+    height: 10%;
+    width: 10%;
+    margin-left: 10%;
+}
+
 .piePagina{
     width: 100%;
     background-color: rgb(190, 186, 186);
@@ -10,5 +30,37 @@
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 50px;
         padding: 45px 0px;
+
+        .box{
+            margin-left: 30%;
+
+            figure{
+                width: 100px;
+                height: 100px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                img{
+                    width: 125px;
+                    height: 125px;
+                }
+            }
+        }
+
+        .redSocial{
+            a{
+                padding: 5px;
+            }
+        }
+    }
+
+    .grupo2{
+        padding: 15px 10px;
+        text-align: center;
+
+        small{
+            font-size: 15px;
+        }
     }
 }

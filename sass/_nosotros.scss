@@ -1,0 +1,18 @@
+.containerInfoNosotros{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+    padding: 5px;
+    
+    .pContainer{
+        width: 420px;
+    }
+
+    .ifrResponsive{
+        .contIfrRes{
+            width: 600px;
+            height: 450px;
+        }
+    }
+}
