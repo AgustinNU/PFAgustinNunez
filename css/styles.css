@@ -43,9 +43,6 @@ h2 {
     opacity: 1;
   }
 }
-
-/*CodigoCSS*/
-
 header {
   position: sticky;
   top: 0;
@@ -200,12 +197,12 @@ form fieldset .container legend {
   width: 410px;
   margin-top: 15px;
 }
-.container .cardContainer {
+.container .cardContainerConfirmar {
   display: grid;
   gap: 1.75rem;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
 }
-.container .cardContainer .card {
+.container .cardContainerConfirmar .card {
   height: 300px;
   width: 290px;
   border: 2px solid black;
@@ -215,14 +212,14 @@ form fieldset .container legend {
   justify-content: space-evenly;
   background-color: white;
 }
-.container .cardContainer .imgProducto {
+.container .cardContainerConfirmar .imgProducto {
   width: 100%;
   height: 50%;
 }
-.container .cardContainer .priceSize {
+.container .cardContainerConfirmar .priceSize {
   font-size: 35px;
 }
-.container .cardContainer .comprar {
+.container .cardContainerConfirmar .comprar {
   border-radius: 30px;
   background-color: aquamarine;
   padding: 5px;
@@ -230,7 +227,7 @@ form fieldset .container legend {
   font-size: 20px;
   text-decoration: none;
 }
-.container .cardContainer .comprar:hover {
+.container .cardContainerConfirmar .comprar:hover {
   background-color: lightskyblue;
   border-color: black;
   color: black;
@@ -305,6 +302,12 @@ form fieldset .container legend {
 
 /*MOBILE */
 @media screen and (max-width: 450px) {
+  h1 {
+    margin-left: 55px;
+  }
+  .sectionCards {
+    margin-left: 40px;
+  }
   .piePagina .grupo1 {
     width: 30%;
     grid-template-columns: repeat(1, 1fr);
@@ -325,7 +328,7 @@ form fieldset .container legend {
     display: flex;
     height: 100%;
     width: 100%;
-    padding: 5px;
+    padding: 15px;
   }
   .containerInfoNosotros .ifrResponsive {
     position: relative;
@@ -335,18 +338,27 @@ form fieldset .container legend {
   .containerInfoNosotros .ifrResponsive .contIfrRes {
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    left: 6%;
+    width: 85%;
+    height: 85%;
     border: 0;
+  }
+  .cardContainer {
+    margin-left: 5px;
+  }
+  .cardContainerConfirmar {
+    margin-left: 35px;
   }
   .buttonConfirmarCompra {
     color: black;
     padding: 5px;
     background-color: white;
     font-size: 28px;
-    margin-left: 20%;
+    margin-left: 115px;
     margin-top: 5%;
+  }
+  .container {
+    margin-left: -5px;
   }
   .logoContacto {
     width: 30px;
@@ -355,6 +367,9 @@ form fieldset .container legend {
 }
 /*TABLET */
 @media screen and (min-width: 451px) and (max-width: 1023px) {
+  .sectionCards {
+    margin-left: 75px;
+  }
   .piePagina .grupo1 {
     width: 50%;
     grid-template-columns: repeat(1, 1fr);
@@ -384,9 +399,9 @@ form fieldset .container legend {
   .containerInfoNosotros .ifrResponsive .contIfrRes {
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    left: 10%;
+    width: 85%;
+    height: 85%;
     border: 0;
   }
   .buttonConfirmarCompra {
@@ -396,6 +411,9 @@ form fieldset .container legend {
     font-size: 28px;
     margin-left: 30%;
     margin-top: 5%;
+  }
+  .container {
+    margin-left: 25%;
   }
   .logoContacto {
     width: 30px;
